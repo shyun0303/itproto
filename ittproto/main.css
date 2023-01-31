@@ -1,0 +1,180 @@
+
+header{
+
+    background-color: white;
+    height: 100px;
+    top:0;left:0;
+}
+header>div{
+  white-space: nowrap;
+}
+.container{
+    margin:  auto;
+    width: 70%;
+}
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+     padding: 8px 12px;
+   
+  }
+.logo {
+    width: 150px;
+    padding-left: 20px;
+    padding-top:10px ;
+}
+
+a{
+    text-decoration: none;
+   
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.navbar__menu{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+
+.navbar__links{
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+}
+.navbar__menu li{
+    padding: 8px 12px;
+}
+.navbar__links li{
+    padding: 8px 12px;
+}
+
+@media screen and (max-width : 800px) {
+    .navbar{
+        flex-direction: column;
+
+    }
+    .autobanner{
+      padding-top: 70px;
+    }
+    .item1{
+      height: 350px;
+    }
+    .text1{
+      visibility: hidden;
+    }
+  
+}
+
+
+.layout{
+  max-width: 70%;
+  margin:  auto;
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 1em;
+
+
+}
+
+
+.layout>article{
+  flex-basis: 680px;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+.flexbox{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  padding: 10px;
+  margin-left: 10px;
+}
+.flexbox>div{
+  margin-right: 30px;
+  margin-bottom: 30px;
+  padding-left: 10px;
+
+  border-radius: 10px 10px ;
+  border:  1px solid lightgray;
+
+  
+}
+
+
+.item{
+  min-height: 250px;
+  flex-basis: 250px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+
+.autobanner{
+  position: relative;
+}
+.autobanner>div{
+
+  width: 100%;
+
+  
+
+  font-size: 65px;
+  color: #f0f0f0;
+
+}
+.slide-arrow{
+  position: absolute;
+  top: 50%;
+  margin-top: -15px;
+}
+
+.slick-prev{
+  left:20px;
+}
+.slick-next{
+  right:20px;
+}
+.wrap {
+  margin: auto;
+  width:75%;
+
+ height: 200px;
+ 
+}
+.text1{
+  position: absolute;
+  top : 5%;
+  margin-left: 100px;
+}
+.item1>img{
+  width: 100%;
+
+}
+.item2>img{
+  width: 100%;
+
+}
+.item3>img{
+  width: 100%;
+
+}
+.free>div>img{
+
+}
+.logos{
+  width:45px;
+
+}
+.qq{
+  flex-basis: 250px;
+  flex-shrink: 1;
+  flex-grow: 1;
+}
+.qq:hover{
+  opacity: 0.5;
+}
+.item:hover{
+  opacity: 0.5;
+}
